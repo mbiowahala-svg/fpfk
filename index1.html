@@ -1,0 +1,41 @@
+<!-- FPCK HTML Template File (index.html) -->
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Free Pentecostal Churches of Kenya (FPCK)</title>
+    <link rel="stylesheet" href="styles.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css">
+</head>
+<body class="fpck-body">
+    <!-- Header -->
+    <header class="fpck-header">
+        <div class="logo-group">
+            <div class="logo-circle"><i class="fa-solid fa-cross"></i></div>
+            <div>
+                <h1>FPCK</h1>
+                <p>Free Pentecostal Churches of Kenya</p>
+            </div>
+        </div>
+        <button class="btn-mpesa" onclick="openGiveModal()">M-Pesa Giving</button>
+    </header>
+
+    <!-- Sanctuary Expansion Section -->
+    <section class="hero-card">
+        <h2>Building a 30,000-Worshipper Cathedral</h2>
+        <div class="progress-bar">
+            <div class="progress-fill" style="width: 43.2%"></div>
+        </div>
+        <p>Target: KES 150,000,000 | Raised: KES 64,850,000</p>
+    </section>
+
+    <!-- Church Dioceses Grid -->
+    <section class="branches-section">
+        <h2>Regional Dioceses</h2>
+        <div id="branches-grid" class="grid"></div>
+    </section>
+
+    <script src="server.js"></script>
+</body>
+</html>
